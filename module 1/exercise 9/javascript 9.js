@@ -9,14 +9,16 @@ if (num > 1) {
       }
     }
     if (isPrime) {
-      alert("the number" + num+ "is a prime number.");
+      alert("the number"  + num+  "is a prime number.");
+      document.body.innerHTML += `The number ${num} is a prime number.`;
     }
 
   else{
-   alert("the number" + num+ "is not a prime number.");
+   alert("the number"  + num+  "is not a prime number.");
+   document.body.innerHTML += `The number ${num} is ${isPrime ? 'a prime number' : 'not a prime number'}.`;
   }
 }
 else{
-    alert("the number" + num+ "is not a prime number.");
+    alert("the number" + num+  "is not a prime number.");
+    document.body.innerHTML += `The number ${num} is not a prime number.`;
 }
-
