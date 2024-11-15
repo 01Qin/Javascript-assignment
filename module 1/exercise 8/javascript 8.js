@@ -14,3 +14,4 @@ function printLeapYears() {
                 }
             }
         }
+        document.addEventListener('DOMContentLoaded', printLeapYears);
