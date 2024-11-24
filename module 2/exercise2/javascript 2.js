@@ -8,9 +8,5 @@ for (let i = 0; i < numParticipants; i++) {
 
 participantNames.sort();
 
-document.querySelector('#Participant').innerHTML = `
-    <h1>Participant Names in Alphabetical Order</h1>
-    <ol>
-        ${participantNames.map(name => `<li>${name}</li>`).join('')}
-    </ol>
-`;
+document.querySelector('#Participant').innerHTML = `the name of
+ participant are: ${participantNames}`
