@@ -8,5 +8,13 @@ for (let i = 0; i < numParticipants; i++) {
 
 participantNames.sort();
 
-document.querySelector('#Participant').innerHTML = `the name of
- participant are: ${participantNames}`
+let ol = document.createElement('ol');
+
+participantNames.forEach(name => {
+    let li = document.createElement('li');
+    li.textContent = name;
+    ol.appendChild(li);
+});
+
+
+document.querySelector('#ParticipantList').appendChild(ol);
