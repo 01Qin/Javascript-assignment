@@ -29,7 +29,7 @@ for (let i = 0; i < numCandidates; i++) {
 
 const numVoters = parseInt(prompt("Enter the number of voters:"));
 
-// Voting process
+
 for (let i = 0; i < numVoters; i++) {
     const vote = prompt(`Voter ${i + 1}, enter the name of the candidate you want to vote for:`);
 
