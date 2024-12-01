@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+
     var targetElement = document.getElementById("target");
 
 
@@ -10,4 +10,3 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     targetElement.classList.add("my-list");
-});
