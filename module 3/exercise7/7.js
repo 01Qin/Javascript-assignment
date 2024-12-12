@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+
     const trigger = document.getElementById('trigger');
     const target = document.getElementById('target');
     const originalImage = target.src;
@@ -10,4 +10,3 @@ document.addEventListener('DOMContentLoaded', function() {
     trigger.addEventListener('mouseout', function() {
         target.src = originalImage;
     });
-});
